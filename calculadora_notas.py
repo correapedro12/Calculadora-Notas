@@ -22,6 +22,8 @@ if  (fez_a_p1 == "S" or fez_a_p1 == "s") and (fez_a_p2 == "S" or fez_a_p2 == "s"
         print(f'Sua média é: {media_p1_p2}.')
         print('Sua média está entre 6.9 e 4, então deve fazer a Prova Final.')
         print(f'Para ser aprovado(a), você deverá tirar no mínimo {nota_para_tirar_na_pf:.2f} na Prova Final.')
+elif (fez_a_p1 == "N" or fez_a_p1 == "n") and (fez_a_p2 == "N" or fez_a_p2 == "n"):
+    print("Você não fez nenhuma prova!")
 elif (fez_a_p1 == "N" or fez_a_p1 == "n") or (fez_a_p2 == "N" or fez_a_p2 == "n"):
     if (fez_a_p1 == "N" or fez_a_p1 == "n"):
         realizou_a_pr_sem_p1 = input('Já fez a Prova de Reposição? Responda [S]im ou [N]ão: ')
